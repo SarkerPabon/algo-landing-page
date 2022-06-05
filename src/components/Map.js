@@ -14,7 +14,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = () => {
 	return (
-		<section className='card my-5  bg-base-100 shadow-2xl container mx-auto p-6'>
+		<section className='card my-5 shadow-2xl container mx-auto p-6'>
 			<h1 className='text-center my-3 text-4xl font-bold text-gray-500'>
 				Our Location
 			</h1>
@@ -28,7 +28,7 @@ const Map = () => {
 					url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 				/>
 				<Marker position={[23.7934, 90.4064]}>
-					<Popup>Megento</Popup>
+					<Popup>Manage</Popup>
 				</Marker>
 			</MapContainer>
 		</section>
