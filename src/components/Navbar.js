@@ -14,10 +14,13 @@ const Navbar = () => {
 			{/* Navbar */}
 			<nav className='relative container mx-auto p-6'>
 				{/* Flex container */}
-				<div className='flex items-center justify-between'>
+				<div className='flex justify-between items-center'>
 					{/* Logo */}
 					<div className='pt-2'>
-						<img src='img/logo.svg' alt='' />
+						{/* <img src='img/logo.svg' alt='logo' /> */}
+						<Link to={"/"} className='text-xl font-bold'>
+							<span className='text-red-700'>T</span>DOT
+						</Link>
 					</div>
 					{/* Menu Items */}
 					<div className='hidden space-x-6 md:flex'>
@@ -67,11 +70,21 @@ const Navbar = () => {
 							toggle ? " flex" : " hidden"
 						}`}
 					>
-						<Link to='#'>Pricing</Link>
-						<Link to='#'>Product</Link>
-						<Link to='#'>About Us</Link>
-						<Link to='#'>Careers</Link>
-						<Link to='#'>Community</Link>
+						<Link to='#' className='hover:text-darkGrayishBlue'>
+							Pricing
+						</Link>
+						<Link to='#' className='hover:text-darkGrayishBlue'>
+							Product
+						</Link>
+						<Link to='#' className='hover:text-darkGrayishBlue'>
+							About Us
+						</Link>
+						<Link to='#' className='hover:text-darkGrayishBlue'>
+							Careers
+						</Link>
+						<Link to='#' className='hover:text-darkGrayishBlue'>
+							Community
+						</Link>
 					</div>
 				</div>
 			</nav>

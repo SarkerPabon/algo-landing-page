@@ -1,29 +1,22 @@
-const SingleProduct = () => {
+const SingleProduct = ({ product }) => {
+	const { id, title, description, img } = product;
 	return (
-		<div className='w-100 rounded overflow-hidden shadow-lg '>
+		<div className='w-100  overflow-hidden shadow-lg rounded-lg'>
 			<img
-				className='w-full'
-				src='https://picsum.photos/seed/picsum/350/250'
+				className='w-full rounded-md'
+				src={img}
 				alt='Sunset in the mountains'
 			/>
 			<div className='px-6 py-4'>
-				<div className='font-bold text-xl mb-2'>The Coldest Sunset</div>
-				<p className='text-gray-700 text-base'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-					quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-					nihil.
+				<div className='font-bold mb-2 text-center text-2xl'>{title}</div>
+				<p className='text-gray-700 text-base text-justify'>
+					{description.slice(0, 200)} ...
 				</p>
 			</div>
-			<div className='px-6 pt-4 pb-2'>
-				<span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-					#photography
-				</span>
-				<span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-					#travel
-				</span>
-				<span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-					#winter
-				</span>
+			<div className='pb-2'>
+				<button className=' p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight'>
+					Details
+				</button>
 			</div>
 		</div>
 	);

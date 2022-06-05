@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "Jaguar XK",
+		"description": "This is the engine that made Jaguar. Before the introduction of the world-beating XK 6 engine, the British marque was a middling also-ran. The generously sized engine was the brainchild of Sir William Lyons and William Heynes, who came up with the idea for the engine while sitting on a roof as part of a fire watch while German bombs fell on Coventry.",
+		"img": "/img/parts-7.png"
+	},
+	{
+		"id": 2,
+		"title": "Chevrolet small",
+		"description": "The small-block Chevrolet is the definitive American V8. Everyone knows someone who owns one. Maybe you own one yourself; I own two. That’s because since it was introduced in 1955, GM and its subsidiaries have made over 100 million small-block V8 engines. Let that number sink in for a second – one hundred million. The pushrod V8 was easy to work on, and easy to modify for more power. ",
+		"img": "/img/parts-8.png"
+	},
+	{
+		"id": 3,
+		"title": "Ford flathead",
+		"description": "The Ford Model T revolutionized the way we drove, and the Ford flathead V8 changed how quickly we got there. The Ford “flatty” was not the first V8, or even the first mass-produced V8. But it was the first V8 that was easily affordable to the masses. Suddenly, the average family could afford a car that could go 60 mph! Model Ts couldn’t do much more than 40.",
+		"img": "/img/parts-9.png"
+	},
+	{
+		"id": 4,
+		"title": "Duesenberg Eight",
+		"description": "The Duesenberg J cannot be anything but the greatest American classic car ever made. These regal, two-tonne locomotives of chrome and lacquer paint were the pinnacle of the automotive world when new. Tragically built on the cusp of the Great Depression,",
+		"img": "/img/parts-10.png"
+	},
+	{
+		"id": 5,
+		"title": "Colombo V12",
+		"description": "The Ford Model T revolutionized the way we drove, and the Ford flathead V8 changed how quickly we got there. The Ford “flatty” was not the first V8, or even the first mass-produced V8. But it was the first V8 that was easily affordable to the masses. Suddenly, the average family could afford a car that could go 60 mph! Model Ts couldn’t do much more than 40.",
+		"img": "/img/parts-11.png"
+	},
+	{
+		"id": 6,
+		"title": "MoPar Street Hemi",
+		"description": "The Hemi name is derived from its hemispherical combustion chambers. Chrysler chose this design because it allowed fitting larger valves than normal while still adhering to NASCAR’s two-valve-per-cylinder mandate. These widely splayed valves created equally wide valve covers",
+		"img": "/img/parts-12.png"
+	}
+]

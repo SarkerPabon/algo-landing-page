@@ -1,8 +1,11 @@
 const Contact = () => (
 	<div className='container mx-auto p-6 shadow-2xl'>
-		<h1 className='text-center my-3 text-4xl font-bold text-gray-500'>
+		<h1 className='text-center mt-3 text-4xl font-bold text-gray-700 '>
 			Contact Us
 		</h1>
+		<p className='text-center text-lg text-gray-500 mt-1 mb-10'>
+			Please fill free contact us
+		</p>
 		<form>
 			<div className='grid grid-cols-2 gap-4 '>
 				<div className='flex flex-col'>
@@ -11,7 +14,7 @@ const Contact = () => (
 						type='text'
 						id='first-name'
 						name='first-name'
-						className='form-input px-3 py-2 rounded-md !outline-none'
+						className='form-input px-3 py-2 rounded-md focus:outline-none'
 						required
 					/>
 				</div>
@@ -80,7 +83,7 @@ const Contact = () => (
 			<div className='flex justify-end py-4'>
 				<button
 					type='submit'
-					className='bg-gray-700 text-white font-bold py-2 px-4 rounded focus:ring focus:ring-gray-300 hover:bg-gray-500'
+					className='p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight'
 				>
 					Submit
 				</button>

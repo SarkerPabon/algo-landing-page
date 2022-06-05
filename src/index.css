@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+	outline: 1px solid #000;
+}
+
 /* Hamburger Menu */
 
 #menu {
@@ -72,5 +76,6 @@ code {
 
 textarea:focus,
 input:focus {
-	outline: none !important;
+	outline: 0 !important;
+	/* outline: 1px solid transparent !important; */
 }
