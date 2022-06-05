@@ -1,10 +1,10 @@
 const Contact = () => (
-	<div className='container mx-auto p-6 '>
+	<div className='container mx-auto p-6 shadow-2xl'>
 		<h1 className='text-center my-3 text-4xl font-bold text-gray-500'>
 			Contact Us
 		</h1>
 		<form>
-			<div className='grid grid-cols-2 gap-4'>
+			<div className='grid grid-cols-2 gap-4 '>
 				<div className='flex flex-col'>
 					<label htmlFor='first-name'>First name</label>
 					<input
