@@ -1,14 +1,16 @@
 import "./App.css";
-import ContactForm from "./components/ContactForm";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Map from "./components/Map";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 
 function App() {
 	return (
 		<div>
 			<Navbar />
-			<ContactForm />
+			<Products />
+			<Contact />
 			<Map />
 			<Footer />
 		</div>
