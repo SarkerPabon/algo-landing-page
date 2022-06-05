@@ -64,6 +64,7 @@ code {
 }
  */
 
+textarea:focus,
 input:focus {
-	outline: 1px solid gray ip !important;
+	outline: none !important;
 }
