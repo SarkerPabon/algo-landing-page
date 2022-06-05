@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Map from "./components/Map";
@@ -10,6 +11,7 @@ function App() {
 	return (
 		<div>
 			<Navbar />
+			<Banner />
 			<Products />
 			<Summary />
 			<Contact />
